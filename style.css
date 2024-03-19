@@ -256,6 +256,87 @@ nav a:hover{
   color: hsl(352, 94%, 47%);
   text-decoration: underline;
 }
+/* Estilos para pantallas grandes */
+@media only screen and (min-width: 1024px) {
+    .Rectangulo1 {
+        width: 30%;
+        left: 60%;
+    }
+}
 
+/* Estilos para tabletas y dispositivos de tamaño mediano */
+@media only screen and (max-width: 1023px) {
+    .Rectangulo1 {
+        width: 50%;
+        left: 25%;
+    }
+    .ContenedordeTexto h2 {
+        font-size: 16px;
+    }
+    .ContenedordeTexto p {
+        width: 80%;
+        font-size: 14px;
+    }
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    .Rectangulo1 {
+        width: 80%;
+        left: 10%;
+    }
+    .ContenedordeTexto h2 {
+        font-size: 14px;
+    }
+    .ContenedordeTexto p {
+        width: 90%;
+        font-size: 12px;
+    }
+    .logo {
+        width: 80px;
+        height: 32px;
+        top: 20px;
+        left: 20px;
+    }
+    .caja3 {
+        width: auto;
+        font-size: 24px;
+    }
+    .Rectangulo2 {
+        width: auto;
+    }
+    .texto {
+        width: auto;
+        font-size: 24px;
+    }
+    .botones {
+        width: 90%;
+        left: 5%;
+        top: 85%;
+    }
+    .indicaciones {
+        width: 90%;
+        left: 5%;
+        top: 75%;
+    }
+    footer {
+        top: 95%;
+    }
+}
+
+/* Estilos adicionales para dispositivos muy pequeños, como teléfonos con pantallas pequeñas */
+@media only screen and (max-width: 479px) {
+    .Rectangulo1 {
+        width: 90%;
+        left: 5%;
+    }
+    .ContenedordeTexto h2 {
+        font-size: 12px;
+    }
+    .ContenedordeTexto p {
+        width: 95%;
+        font-size: 10px;
+    }
+}
 
 
